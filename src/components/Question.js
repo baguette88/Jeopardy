@@ -12,7 +12,7 @@ export default class Question extends Component {
         <h4>Airdate: {this.props.question.airdate}</h4>
         <h1>Difficulty: {this.props.question.value}</h1>{" "}
         <button Increment> Score</button> <button>Decrement Score</button>
-        {/* <h4>Category: {this.props.question.category.title}</h4> */}
+        <h4>Category: {this.props.question.category.title}</h4>
         <h4>ID: {this.props.question.id}</h4>
       </div>
     );
